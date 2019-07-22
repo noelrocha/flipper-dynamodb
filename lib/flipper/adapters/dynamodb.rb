@@ -1,4 +1,8 @@
-require "flipper/dynamodb/version"
+require "flipper/dynamodb/adapters/version"
+
+require "flipper/dynamodb/feature"
+require "flipper/dynamodb/gate"
+
 require 'flipper'
 
 module Flipper
